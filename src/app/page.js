@@ -1,10 +1,7 @@
 export default function Home() {
     return (
-        <div
-            className='bg-cover bg-no-repeat bg-center w-full h-full grid grid-cols-2 gap-4'
-            style={{ backgroundImage: "url('/pics/disney-plus-1280-x-800-background-n41mbrw9vi6ivrqj.jpg')" }}
-        >
-            <div className='pl-16 pb-4 flex flex-col justify-between '>
+        <div className='bg-cover bg-no-repeat bg-center w-full h-full grid grid-cols-2 gap-4 gradient-overlay'>
+            <div className='pl-16 pb-5 flex flex-col justify-between '>
                 <div></div>
                 <div className='grid gap-7'>
                     <img src='/pics/Disney_Plus_logo.svg.png' alt='Your Image Description' class='w-auto h-20' />
